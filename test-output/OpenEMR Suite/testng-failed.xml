@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OpenEMR Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Patient Test(failed)">
+    <classes>
+      <class name="com.tieto.test.AddPatientTest">
+        <methods>
+          <include name="createPatientTest"/>
+          <include name="end"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.tieto.test.AddPatientTest -->
+    </classes>
+  </test> <!-- Patient Test(failed) -->
+</suite> <!-- Failed suite [OpenEMR Suite] -->
