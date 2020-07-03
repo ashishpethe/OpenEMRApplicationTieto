@@ -15,6 +15,7 @@ import com.tieto.utilities.PropUtils;
 public class WebDriverWrapper {
 
 	protected WebDriver driver; 
+	
 
 	@Parameters({"browser"})
 	@BeforeMethod
